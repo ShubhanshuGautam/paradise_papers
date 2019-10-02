@@ -22,7 +22,7 @@ A simple Django web app for searching the Paradise Papers dataset backed by Neo4
 - Clone this repository
 
 ``` bash
-# Setup neo4j db and provide credentials in settings/base.py file
+# Setup neo4j db and provide credentials in paradise_papers/settings/dev.py file
 
 # Import the data of offshore leaks into the neo4j db
 

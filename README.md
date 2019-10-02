@@ -30,7 +30,9 @@ A simple Django web app for searching the Paradise Papers dataset backed by Neo4
 cd paradise_papers
 
 # Run the app(after installing requirements)
-python manage.py runserver --settings=paradise_papers.settings.dev
+python manage.py runserver 0.0.0.0:8000 --settings=paradise_papers.settings.dev
+
+# On a web browser, visit at localhost:8000/ to see web app for paradise paper search in action
 ```
 
 
